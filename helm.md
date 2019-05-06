@@ -7,15 +7,21 @@ kubectl create clusterrolebinding tiller --clusterrole cluster-admin --serviceac
 helm init --service-account tiller
 ```
 
+# helm cheating sheet
+```
+helm list -a (get release-name)
+helm get values release-name
+helm delete release-name
+```
+
 # Install filebeat
 ```
 helm install --name elastic-search -f filebeat-heml.yaml stable/filebeat
 kubectl --namespace=default get pods -l "app=filebeat,release=release-name"
 ```
 
-# helm cheating sheet
+# Install metricbeat
 ```
-helm list -a (get release-name)
-helm get values release-name
-helm delete release-name
+helm install --name elastic-metric -f metricbeat-helm.yaml stable/metricbeat
+kubectl --namespace=default get pods -l "app=metricbeat,release=elastic-metric"
 ```
