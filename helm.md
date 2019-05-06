@@ -9,7 +9,7 @@ helm init --service-account tiller
 
 # Install filebeat
 ```
-helm install --name elastic-search -f filebeat.yaml stable/filebeat
+helm install --name elastic-search -f filebeat-heml.yaml stable/filebeat
 kubectl --namespace=default get pods -l "app=filebeat,release=release-name"
 ```
 
