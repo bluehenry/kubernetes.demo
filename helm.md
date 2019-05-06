@@ -14,6 +14,8 @@ kubectl --namespace=default get pods -l "app=filebeat,release=release-name"
 ```
 
 # helm cheating sheet
+```
 helm list -a (get release-name)
 helm get values release-name
 helm delete release-name
+```
