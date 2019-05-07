@@ -12,6 +12,7 @@ helm init --service-account tiller
 helm list -a (get release-name)
 helm get values release-name
 helm delete release-name
+helm delete --purge release-name
 ```
 
 # Install filebeat
