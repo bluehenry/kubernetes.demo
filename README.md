@@ -13,6 +13,17 @@ kubectl get svc --all-namespaces
 kubectl get pods
 ```
 
+## Troubleshooting with kubectl
+### kubectl get - list resources
+### kubectl describe - show detailed information about a resource
+### kubectl logs - print the logs from a container in a pod
+### kubectl exec - execute a command on a container in a pod
+Getting a shell to a Container
+```
+kubectl exec -it pod-name -- /bin/bash
+```
+
+
 #Helm
 (Helm)[https://helm.sh/] helps you manage Kubernetes applications.
 ## Install heml in local
