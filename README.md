@@ -17,6 +17,9 @@ kubectl get pods
 ### kubectl get - list resources
 ### kubectl describe - show detailed information about a resource
 ### kubectl logs - print the logs from a container in a pod
+```
+kubectl logs pod-name
+```
 ### kubectl exec - execute a command on a container in a pod
 Getting a shell to a Container
 ```
