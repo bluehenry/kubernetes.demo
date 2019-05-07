@@ -1,7 +1,8 @@
 # Kubernetes Dashboard
 
-[Kubenetes Dashboard](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/)
-[How to sign in Kubernetes Dashboard](https://stackoverflow.com/questions/46664104/how-to-sign-in-kubernetes-dashboard)
+* [Kubenetes Dashboard](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/)
+
+* [How to sign in Kubernetes Dashboard](https://stackoverflow.com/questions/46664104/how-to-sign-in-kubernetes-dashboard)
 
 * Deploying the Dashboard UI
 ```
