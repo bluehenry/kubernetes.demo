@@ -9,6 +9,8 @@ helm init --service-account tiller
 
 # helm cheating sheet
 ```
+helm init
+heml repo update
 helm list -a (get release-name)
 helm get values release-name
 helm delete release-name
