@@ -11,6 +11,7 @@ kubectl get all -n namespace_name
 kubectl get deployment -n namespace_name
 kubectl get svc --all-namespaces
 kubectl get pods
+kubectl get pods -l "release=metricbeat"
 ```
 
 ## Troubleshooting with kubectl
